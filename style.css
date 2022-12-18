@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url("3c5eb3344e57cde910a222bd2bd53332.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-items {
+    padding: 0 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 30px;
+}
+
+.nav-items li {
+    list-style-type: none;
+    padding: 0px 25px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #ffff;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Cookie', cursive;
+    line-height: 10px;
+    font-size: 20px;
+    margin-left: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.title-container {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title-container h1 {
+    font-size: 90px;
+    text-transform: uppercase;
+    letter-spacing: 28px;
+    color: #ffff;
+}
+
+.title {
+    position: relative;
+}
+
+.circle {
+    background-color: red;
+    width: 40px;
+    height: 45px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 29%;
+    left: 59%;
+}
+
+.subtext {
+    width: 50%;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    text-align: end;
+    font-size: 20px;
+    text-transform: uppercase;
+    word-spacing: 15px;
+    font-weight: 600;
+}
+
+.japan {
+    width: 45%;
+    font-family: 'Cookie', cursive;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 15px;
+    font-size: 30px;
+}
+.text-container{
+    width:100%;
+    height:180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:20px;
+}
+.box{
+    padding: 30px;
+}
+.box h3{
+    font-size: 23px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+} 
+.box p{
+    font-size: 12px;
+    color: #fff;
+    word-spacing: 3px;
+} 
